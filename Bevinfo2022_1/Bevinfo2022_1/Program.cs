@@ -51,7 +51,6 @@ namespace Bevinfo2022_1
         static int inputInt;
 
         //FÜGGVÉNYEK
-
         //Segítség
         public static void help()
         {
@@ -62,9 +61,21 @@ namespace Bevinfo2022_1
         //Validáció
         public static bool isOctNumber()
         {
+            Console.WriteLine(inputString);
+            Console.WriteLine(inputString.Length);
+
+            string str = inputString;
+            char ch = '.';
+
+            int freq = str.Count(f => (f == ch));
+            if(freq >= 2)
+            {
+                return false;
+            }
+
             for (int i = 0; i < inputString.Length - 1; i++)
             {
-                if (int.TryParse(inputString, out int temp2))
+                if (int.TryParse(inputString.Replace(".",""), out int temp2))
                 {
                     if (int.Parse(inputString.Substring(i, 1)) > 7 || int.Parse(inputString.Substring(i, 1)) < 0)
                     {
@@ -192,8 +203,11 @@ namespace Bevinfo2022_1
         public static string exchangeFromOctToBin(string input)
         {
             string result = "";
+            bool toBreak = false;
+                int stopped = -1;
             for (int i = 0; i < input.Length; i++)
             {
+                
                 switch (input.Substring(i, 1))
                 {
                     case "0": result += "000"; break;
@@ -204,9 +218,16 @@ namespace Bevinfo2022_1
                     case "5": result += "101"; break;
                     case "6": result += "110"; break;
                     case "7": result += "111"; break;
+                    case ".": toBreak = true; stopped = i+1; break;
                     default: result += "000"; break;
                 }
+                if(toBreak)
+                {
+                    break;
+                }
             }
+
+            Console.WriteLine("Pontig megvan: " + result + "." +input.Substring(stopped)+ "(a pont utáni még ninc sváltva)") ;
 
 
             return result;
