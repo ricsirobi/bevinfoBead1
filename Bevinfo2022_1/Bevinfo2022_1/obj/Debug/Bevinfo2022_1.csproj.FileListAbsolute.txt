@@ -1,0 +1,8 @@
+C:\Users\acsro\source\repos\Bevinfo2022_1\Bevinfo2022_1\bin\Debug\Bevinfo2022_1.exe.config
+C:\Users\acsro\source\repos\Bevinfo2022_1\Bevinfo2022_1\bin\Debug\Bevinfo2022_1.exe
+C:\Users\acsro\source\repos\Bevinfo2022_1\Bevinfo2022_1\bin\Debug\Bevinfo2022_1.pdb
+C:\Users\acsro\source\repos\Bevinfo2022_1\Bevinfo2022_1\obj\Debug\Bevinfo2022_1.csproj.AssemblyReference.cache
+C:\Users\acsro\source\repos\Bevinfo2022_1\Bevinfo2022_1\obj\Debug\Bevinfo2022_1.csproj.SuggestedBindingRedirects.cache
+C:\Users\acsro\source\repos\Bevinfo2022_1\Bevinfo2022_1\obj\Debug\Bevinfo2022_1.csproj.CoreCompileInputs.cache
+C:\Users\acsro\source\repos\Bevinfo2022_1\Bevinfo2022_1\obj\Debug\Bevinfo2022_1.exe
+C:\Users\acsro\source\repos\Bevinfo2022_1\Bevinfo2022_1\obj\Debug\Bevinfo2022_1.pdb
