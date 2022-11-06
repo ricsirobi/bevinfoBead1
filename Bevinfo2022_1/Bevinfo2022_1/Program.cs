@@ -56,7 +56,7 @@ namespace Bevinfo2022_1
         public static void help()
         {
             CowSay("octHexConverter\nKészítette Bodnár Máté");
-            CowSay("Kezdetnek írd be, hogy \"8-16\" vagy \"16-8\". \nEzzel kiválaszthatod azt, hogy milyen számrendszerből hova váltunk.\n");
+            chooseChangeType();
         }
 
         //Validáció
@@ -134,7 +134,7 @@ namespace Bevinfo2022_1
         //Fő
         public static void chooseChangeType()
         {
-            CowSay("Írd be, hogy melyik számrendszerből melyikbe szeretnél váltani.");
+            CowSay("Kezdetnek írd be, hogy \"8-16\" vagy \"16-8\". \nEzzel kiválaszthatod azt, hogy milyen számrendszerből hova váltunk.\n");
             CowSay("(8-16 vagy 16-8)");
             string answer = Console.ReadLine();
             while (!(answer == "8-16") && !(answer == "16-8"))
@@ -485,7 +485,7 @@ namespace Bevinfo2022_1
         }
         static void Main(string[] args)
         {
-            Console.WriteLine("OctToHex Converter\nKészítette: Bodnár Máté\nHa segítségre lenne szüksége írja be a HELP parancsot vagy nyomjon entert a program indításához!");
+            Console.WriteLine("Ha segítségre lenne szüksége írja be a HELP parancsot vagy nyomjon entert a program indításához!");
             while (true)
             {
                 if (Console.ReadLine() == "help")
