@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using static System.Net.Mime.MediaTypeNames;
@@ -484,11 +485,21 @@ namespace Bevinfo2022_1
         }
         static void Main(string[] args)
         {
-            chooseChangeType();
-
-
-            Console.WriteLine("===================================================================");
-            Console.WriteLine("Program vége,nyomj egy gombot a kilépéshez");
+            Console.WriteLine("OctToHex Converter\nKészítette: Bodnár Máté\nHa segítségre lenne szüksége írja be a HELP parancsot vagy nyomjon entert a program indításához!");
+            while (true)
+            {
+                if (Console.ReadLine() == "help")
+                {
+                    help();
+                }
+                else {
+                    chooseChangeType();
+                    Console.WriteLine("===================================================================");
+                    Console.WriteLine("Program vége,nyomj egy gombot a kilépéshez");
+                    break;
+                }
+            }
+            
             Console.ReadKey();
         }
     }
