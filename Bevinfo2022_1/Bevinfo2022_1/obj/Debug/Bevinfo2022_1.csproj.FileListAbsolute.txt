@@ -22,3 +22,11 @@ C:\xampp\htdocs\bevinfoBead1\Bevinfo2022_1\Bevinfo2022_1\obj\Debug\Bevinfo2022_1
 C:\xampp\htdocs\bevinfoBead1\Bevinfo2022_1\Bevinfo2022_1\obj\Debug\Bevinfo2022_1.csproj.CoreCompileInputs.cache
 C:\xampp\htdocs\bevinfoBead1\Bevinfo2022_1\Bevinfo2022_1\obj\Debug\Bevinfo2022_1.exe
 C:\xampp\htdocs\bevinfoBead1\Bevinfo2022_1\Bevinfo2022_1\obj\Debug\Bevinfo2022_1.pdb
+C:\Users\Bodnár\Documents\GitHub\bevinfoBead1\Bevinfo2022_1\Bevinfo2022_1\bin\Debug\Bevinfo2022_1.exe.config
+C:\Users\Bodnár\Documents\GitHub\bevinfoBead1\Bevinfo2022_1\Bevinfo2022_1\bin\Debug\Bevinfo2022_1.exe
+C:\Users\Bodnár\Documents\GitHub\bevinfoBead1\Bevinfo2022_1\Bevinfo2022_1\bin\Debug\Bevinfo2022_1.pdb
+C:\Users\Bodnár\Documents\GitHub\bevinfoBead1\Bevinfo2022_1\Bevinfo2022_1\obj\Debug\Bevinfo2022_1.csproj.AssemblyReference.cache
+C:\Users\Bodnár\Documents\GitHub\bevinfoBead1\Bevinfo2022_1\Bevinfo2022_1\obj\Debug\Bevinfo2022_1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Bodnár\Documents\GitHub\bevinfoBead1\Bevinfo2022_1\Bevinfo2022_1\obj\Debug\Bevinfo2022_1.csproj.CoreCompileInputs.cache
+C:\Users\Bodnár\Documents\GitHub\bevinfoBead1\Bevinfo2022_1\Bevinfo2022_1\obj\Debug\Bevinfo2022_1.exe
+C:\Users\Bodnár\Documents\GitHub\bevinfoBead1\Bevinfo2022_1\Bevinfo2022_1\obj\Debug\Bevinfo2022_1.pdb

@@ -120,7 +120,8 @@ namespace Bevinfo2022_1
                         inputString.Substring(i, 1) != "C" &&
                         inputString.Substring(i, 1) != "D" &&
                         inputString.Substring(i, 1) != "E" &&
-                        inputString.Substring(i, 1) != "F")
+                        inputString.Substring(i, 1) != "F" &&
+                        inputString.Substring(i, 1) != ".")
                     {
                         return false;
                     }
@@ -407,9 +408,50 @@ namespace Bevinfo2022_1
                     break;
                 }
             }
+            if (stopped == input.Length)
+            {
+                Console.WriteLine(result);
+            }
+            else
+            {
+                result += "....";
+                string resultOtherHalf = "0.";
+
+                for (int i = stopped; i < input.Length; i++)
+                {
+                    resultOtherHalf += input.Substring(i, 1);
+                }
+                double resultHalfDouble = 0;
+                try
+                {
+                    resultHalfDouble = Double.Parse(resultOtherHalf);
+                }
+                catch (Exception e)
+                {
+                    resultHalfDouble = Double.Parse(resultOtherHalf.Replace(".", ","));
+                }
+
+                Console.WriteLine("Tört rész:\n" + resultHalfDouble);
+                while (resultHalfDouble != 1 && resultHalfDouble.ToString().Length >= 21)
+                {
+                    resultHalfDouble *= 2;
+                    if (resultHalfDouble > 1)
+                    {
+                        resultHalfDouble -= 1;
+                        result += "1";
+                    }
+                    else
+                    {
+                        result += "0";
+                    }
+                    Console.WriteLine(resultHalfDouble);
+                }
+                result += "1";
+            }
 
 
             return result;
+
         }
         public static string exchangeFromBinToOct(string input)
         {
