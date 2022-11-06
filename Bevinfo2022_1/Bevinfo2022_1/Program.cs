@@ -249,7 +249,7 @@ namespace Bevinfo2022_1
                     resultHalfDouble = Double.Parse(resultOtherHalf.Replace(".", ","));
                 }
                 
-                Console.WriteLine("RESUT HALF:\n" + resultHalfDouble);
+                Console.WriteLine("Tört rész:\n" + resultHalfDouble);
                 while (resultHalfDouble!=1 && resultHalfDouble.ToString().Length>=21)
                 {
                     resultHalfDouble *= 2;
@@ -265,7 +265,6 @@ namespace Bevinfo2022_1
                     Console.WriteLine(resultHalfDouble);
                 }
                 result += "1";
-                Console.WriteLine("Pontig megvan: " + result  + "(a pont utáni még ninc sváltva)");
             }
 
 
@@ -284,21 +283,21 @@ namespace Bevinfo2022_1
                     {
                         input = "0" + input;
                     }
-                    Console.WriteLine("INPUTOM: " + input);
+                    //Console.WriteLine(input);
                 }
 
                 if (input.Replace("....", ".").Split('.')[1].Length % 4 != 0)
                 {
                     inputSecondHalf = input.Replace("....", ".").Split('.')[1];
 
-                    Console.WriteLine("BEJOTTEM"+ "szám: "+inputSecondHalf + " maradék:" + (4-inputSecondHalf.Length));
+                    //Console.WriteLine("BEJOTTEM"+ "szám: "+inputSecondHalf + " maradék:" + (4-inputSecondHalf.Length));
                     for (int i = 0; i < inputSecondHalf.Length % 4; i++)
                     {
-                        Console.WriteLine("forban vagyok: "+i);
+                        //Console.WriteLine("forban vagyok: "+i);
                         inputSecondHalf = inputSecondHalf+"0";
                     }
                     input = input.Replace("....", ".").Split('.')[0] + "...." + inputSecondHalf;
-                    Console.WriteLine("INPUTOM: " + input);
+                    //Console.WriteLine("INPUTOM: " + input);
                 }
             }
             
@@ -408,7 +407,6 @@ namespace Bevinfo2022_1
                     break;
                 }
             }
-            Console.WriteLine("Pontig megvan: " + result + "." + input.Substring(stopped) + "(a pont utáni még nincs váltva)");
 
 
             return result;
