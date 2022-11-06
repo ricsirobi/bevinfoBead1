@@ -14,3 +14,11 @@ C:\xampp\htdocs\prog\bevinfoBead1\Bevinfo2022_1\Bevinfo2022_1\obj\Debug\Bevinfo2
 C:\xampp\htdocs\prog\bevinfoBead1\Bevinfo2022_1\Bevinfo2022_1\obj\Debug\Bevinfo2022_1.csproj.CoreCompileInputs.cache
 C:\xampp\htdocs\prog\bevinfoBead1\Bevinfo2022_1\Bevinfo2022_1\obj\Debug\Bevinfo2022_1.exe
 C:\xampp\htdocs\prog\bevinfoBead1\Bevinfo2022_1\Bevinfo2022_1\obj\Debug\Bevinfo2022_1.pdb
+C:\xampp\htdocs\bevinfoBead1\Bevinfo2022_1\Bevinfo2022_1\bin\Debug\Bevinfo2022_1.exe.config
+C:\xampp\htdocs\bevinfoBead1\Bevinfo2022_1\Bevinfo2022_1\bin\Debug\Bevinfo2022_1.exe
+C:\xampp\htdocs\bevinfoBead1\Bevinfo2022_1\Bevinfo2022_1\bin\Debug\Bevinfo2022_1.pdb
+C:\xampp\htdocs\bevinfoBead1\Bevinfo2022_1\Bevinfo2022_1\obj\Debug\Bevinfo2022_1.csproj.AssemblyReference.cache
+C:\xampp\htdocs\bevinfoBead1\Bevinfo2022_1\Bevinfo2022_1\obj\Debug\Bevinfo2022_1.csproj.SuggestedBindingRedirects.cache
+C:\xampp\htdocs\bevinfoBead1\Bevinfo2022_1\Bevinfo2022_1\obj\Debug\Bevinfo2022_1.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\bevinfoBead1\Bevinfo2022_1\Bevinfo2022_1\obj\Debug\Bevinfo2022_1.exe
+C:\xampp\htdocs\bevinfoBead1\Bevinfo2022_1\Bevinfo2022_1\obj\Debug\Bevinfo2022_1.pdb
