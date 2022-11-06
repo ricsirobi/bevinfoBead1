@@ -72,6 +72,15 @@ namespace Bevinfo2022_1
             {
                 return false;
             }
+            str = inputString;
+            ch = ',';
+
+            freq = str.Count(f => (f == ch));
+            if (freq >= 2)
+            {
+                return false;
+            }
+            //a nyelv problémát kijavítom viszont így nem fogja figyelni azt, hogy mi van akkor ha van egy pont és egy vessző is
             for (int i = 0; i < inputString.Length - 1; i++)
             {
                 if (int.TryParse(inputString.Replace(".",""), out int temp2))
@@ -230,7 +239,16 @@ namespace Bevinfo2022_1
                 {
                     resultOtherHalf += input.Substring(i, 1);
                 }
-                double resultHalfDouble = Double.Parse(resultOtherHalf);
+                double resultHalfDouble = 0;
+                try
+                {
+                    resultHalfDouble = Double.Parse(resultOtherHalf);
+                }
+                catch (Exception e)
+                {
+                    resultHalfDouble = Double.Parse(resultOtherHalf.Replace(".", ","));
+                }
+                
                 Console.WriteLine("RESUT HALF:\n" + resultHalfDouble);
                 while (resultHalfDouble!=1 && resultHalfDouble.ToString().Length>=21)
                 {
